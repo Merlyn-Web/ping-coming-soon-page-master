@@ -1,0 +1,8 @@
+.valide {
+    color: hsl(115, 77%, 22%);
+    text-align: center;
+}
+
+.inputvalide {
+    border: 2px solid hsl(115, 83%, 16%);
+}

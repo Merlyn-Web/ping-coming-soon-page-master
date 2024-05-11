@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    margin-top: 30px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.header span {
+    color: hsl(0, 0%, 0%);
+    font-weight: 600;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.form {
+    margin-top: 50px;
+    display: flex;
+}
+
+.form-text {
+    display: block;
+}
+
+.form input {
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.message {
+    text-align: center;
+}
+
+.form button {
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: hsl(223, 87%, 63%);
+    cursor: pointer;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    margin-left: 15px;
+    box-shadow: 0px 4px 12px hsla(223, 80%, 72%, 0.699);
+}
+
+.img-illustration {
+    width: 500px;
+    margin-top: 60px;
+}
+
+.footer .logo-reseau {
+    text-align: center;
+    font-size: 25px;
+    color: hsl(223, 87%, 63%);
+}
+
+.logo-facebook,
+.logo-twitter,
+.logo-instagram {
+    border: 2px solid hsl(0, 0%, 59%);
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.Copyright {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width: 600px) {
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form button {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section-reseau{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-illustration {
+        width: 400px;
+    }
+
+    .logo-reseau {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo-ping {
+        width: 80px;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+
+    .form {
+        margin-top: 30px;
+    }
+
+    .form input {
+        width: 300px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .form button {
+        width: 100px;
+        height: 40px;
+    }
+
+    .img-illustration {
+        width: 300px;
+    }
+
+    .footer .logo-reseau {
+        font-size: 15px;
+    }
+}

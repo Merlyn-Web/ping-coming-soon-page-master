@@ -1,0 +1,7 @@
+.message {
+    color: hsl(0, 93%, 45%);
+}
+
+.error {
+    border: 2px solid hsl(0, 93%, 45%);
+}
